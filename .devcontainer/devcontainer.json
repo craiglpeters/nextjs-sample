@@ -7,6 +7,9 @@
   "updateContentCommand": "npm install && npm run build",
   "postStartCommand": "npm run dev",
   "postAttachCommand" : "npm run dev",
+  "features": {
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-gh-copilot-cli:0": {}
+  },
   "customizations": {
     "codespaces": {
       "openFiles": [
